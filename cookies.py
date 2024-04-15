@@ -41,15 +41,13 @@ class saucedemo:
             file1 = open("MyFile.txt", "w")
             print(cookie)
 
-        # Write a string to the file
-            file1.write(cookie)
-
-        # Close the file
-            file1.close()    
-    
+        
 
 obj = saucedemo()
-print(obj)
+obj.login()
+obj.cookie()
+
+
 
 
 
